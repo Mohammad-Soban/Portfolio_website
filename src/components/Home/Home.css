@@ -1,0 +1,82 @@
+.social-media-links {
+    padding-left: 50px;
+    text-align: left;
+}
+
+#header-left-main {
+    width: 800px
+}
+
+#home-main-name {
+    width: 700px;
+}
+
+@media (max-width: 1000px) {
+    .social-media-links {
+        padding-left: 20px;
+        text-align: left;
+    }
+
+    #header-left-main {
+        width: 100%;
+    }
+
+    #header-main {
+        display: block;
+        padding-left: 0px;
+    }
+
+    #home-main-name {
+        width: 100%;
+    }
+
+}
+
+/* At width of 991 or below the navbar should be a button along with the logo */
+@media (max-width: 992px) {
+    .social-media-links {
+        padding-left: 40px;
+        text-align: left;
+    }
+
+    #header-left-main {
+        width: 100%;
+    }
+
+    #header-main {
+        display: block;
+        padding-left: 0px;
+    }
+
+    #home-main-name {
+        width: 100%;
+    }
+
+    #home {
+        padding-left: 0px;
+        margin-left: 15px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #home {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    #home-main-name {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        max-width: 90% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Set the width of the navbar to 90 */
+    #responsive-navbar-nav {
+        width: 90% !important;
+    }
+
+    /* Bring the toggle navbar button to the center of the navbar */
+}

@@ -1,0 +1,19 @@
+.adjust-width{
+    width:820px
+}
+
+@media screen and (max-width: 992px) {
+    .adjust-width{
+        width: 700px;
+        height: 600px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .adjust-width{
+        width: 685px !important;
+        height: 595px !important;
+        align-items: center;
+    }
+}

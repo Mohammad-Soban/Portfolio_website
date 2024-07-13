@@ -1,0 +1,13 @@
+.Canvas-hws{
+    height: 700px;
+    width: 820px;
+
+}
+
+@media screen and (max-width: 992px) {
+    .Canvas-hws{
+        height: 800px;
+        width: 90%;
+        align-items: center;
+    }
+}
